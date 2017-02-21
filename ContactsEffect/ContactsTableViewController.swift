@@ -78,7 +78,7 @@ class ContactsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "theCellOfTheTable", for: indexPath)
 
         // Configure the cell...
-        /*  */
+        
         
         let oneContact = self.tableOFContacts[indexPath.row]
         
