@@ -13,6 +13,9 @@
 		045DED5D1E5C540E0048D31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045DED5C1E5C540E0048D31B /* Assets.xcassets */; };
 		045DED601E5C540E0048D31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045DED5E1E5C540E0048D31B /* LaunchScreen.storyboard */; };
 		045DED6B1E5C540E0048D31B /* ContactsEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DED6A1E5C540E0048D31B /* ContactsEffectTests.swift */; };
+		045DED761E5C57240048D31B /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DED751E5C57240048D31B /* ContactsTableViewController.swift */; };
+		045DED781E5C5C620048D31B /* TheObjectCalledContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DED771E5C5C620048D31B /* TheObjectCalledContact.swift */; };
+		045DED7A1E5C66110048D31B /* NameAndPhoneOfTheContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DED791E5C66110048D31B /* NameAndPhoneOfTheContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		045DED661E5C540E0048D31B /* ContactsEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045DED6A1E5C540E0048D31B /* ContactsEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsEffectTests.swift; sourceTree = "<group>"; };
 		045DED6C1E5C540E0048D31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045DED751E5C57240048D31B /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		045DED771E5C5C620048D31B /* TheObjectCalledContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheObjectCalledContact.swift; sourceTree = "<group>"; };
+		045DED791E5C66110048D31B /* NameAndPhoneOfTheContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndPhoneOfTheContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				045DED551E5C540D0048D31B /* AppDelegate.swift */,
 				045DED571E5C540D0048D31B /* ViewController.swift */,
 				045DED591E5C540D0048D31B /* Main.storyboard */,
+				045DED791E5C66110048D31B /* NameAndPhoneOfTheContactViewController.swift */,
+				045DED771E5C5C620048D31B /* TheObjectCalledContact.swift */,
+				045DED751E5C57240048D31B /* ContactsTableViewController.swift */,
 				045DED5C1E5C540E0048D31B /* Assets.xcassets */,
 				045DED5E1E5C540E0048D31B /* LaunchScreen.storyboard */,
 				045DED611E5C540E0048D31B /* Info.plist */,
@@ -199,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045DED7A1E5C66110048D31B /* NameAndPhoneOfTheContactViewController.swift in Sources */,
+				045DED781E5C5C620048D31B /* TheObjectCalledContact.swift in Sources */,
 				045DED581E5C540D0048D31B /* ViewController.swift in Sources */,
 				045DED561E5C540D0048D31B /* AppDelegate.swift in Sources */,
+				045DED761E5C57240048D31B /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
